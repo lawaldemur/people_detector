@@ -1,0 +1,23 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* Mirror the local sourceVideo */
+    transform: scale(-1, 1);            /*For Firefox (& IE) */
+    -webkit-transform: scale(-1, 1);     /*for Chrome & Opera (& Safari) */
+}
+canvas{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:0
+}
+button#start{
+    font-size: x-large;
+    padding: 5px;
+    margin: 10px 200px auto;
+    align-self: center;
+
+}
